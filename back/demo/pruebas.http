@@ -1,0 +1,16 @@
+POST http://localhost:8080/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin2",
+    "passwd": "secret"
+}
+
+# POST http://localhost:8080/user HTTP/1.1
+# content-type: application/json
+
+# {
+#     "source":"Ezio",
+#     "destiny":"admin2",
+#     "value":500
+# }
